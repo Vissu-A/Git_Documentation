@@ -91,8 +91,10 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 | git log --stat					|     to see a breaf summary of the changes made for each commit
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+| git show <commit_id>				|	to see the complete information of a particular commit
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 | git log --graph					|	to see all the commits in a tree graph format
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-| git log --pretty=format:"wanted format"  |	to display the git log output is customized format, ex: git log --pretty=format:"Commit Hash: %H, Author: %aN, Date: %aD"
+| git log --pretty=format:"wanted format" |	to display the git log output is customized format, ex: git log --pretty=format:"Commit Hash: %H, Author: %aN, Date: %aD"
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
