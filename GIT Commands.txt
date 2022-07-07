@@ -39,11 +39,19 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 |	git restore --staged <file_name>	|	to remove the file from staging index area. the file will again become untraced file.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-|	git commit -m "commit msg"		|	to commit the changes
+|	git commit -m "commit msg"		|	to commit the changes, commit message will be saved in the path ./.git/COMMIT_EDITMSG file
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 |	git push origin <branch name>		|	to push the commited changes to remote repository branch from local repository branch.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
+| 	git branch/ git branch -a		|	gives the list of branches and highlit the branch which your currently working with star(*) symbol before branch name.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git branch <branch_name>		|	this will create a branch with the given name.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git checkout <branch_name>		|	to change the branch from current working branch to given branch
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git checkout -b <branch_name>		|	this will create the branch with given name and change to the newly created branch from current working branch.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git branch -d <branch_name>		|	to delete the branch, When can't delete the branch if we are working currently in that branch. change to other branch first then delete the branch
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
