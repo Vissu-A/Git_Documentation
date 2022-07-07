@@ -55,6 +55,6 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 |	git branch	-D <branch_name>		|	to force delete the branch from local repository
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-| git push --delete origin <branch_name>	|	to delete the branch from remote repository
+| git push --delete origin <branch_name>	|	to delete the branch from remote repository, we can run this command from any branch.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
