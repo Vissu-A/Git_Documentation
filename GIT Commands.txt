@@ -1,0 +1,43 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|		COMMAND				|							DESCRIPTION
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git --version				|	to see the git version which is installed on your computer.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git help					|	to see the list of git commands and description of how to use those commands.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git --man-path				|	this will gives the git command's manual/documentaion files path which are stored/installed when we install git on the computer.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+| git config --global user.name <"name">	|	to configure/set your github account username in git bash global variables.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+| git config --global user.email <"email">|	to configure/set your github account email in git bash global variables.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+| git config --global --get user.name	|	to get/see the value of global variable. to check what is the value has been set for a global variable.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+| git config --global --get user.email	|	to get/see the value of global variable. to check what is the value has been set for a global variable.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+| git config --global --list			|	to see all the global variable value/configurations
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+| git config --global --unset user.name	|	to remove/unset the value of a global variable.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+| git config --global --unset --all		|	to remove/unset the values of all global variable configurations.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git init					|	Making a normal folder/directory as git repository, we need to execute this command in the folder/directory path which we want to make it as git repo.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git clone <repo url>			|	Cloning the existing remote repositoty from github to local memory.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git status					|	used to show changes done in the Working Directory/local repository.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git add <file_name>			|	to add the file changes/modifications to staging/index area.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git add . / git add *			|	this will add the files which are modified or added newly to staging. this will not add the file deletion changes to staging/index. this will not consider the file deletion.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git add -u					|	this will add the files which are modified or deleted to statging. this will not add the newly created files to staging. this will not consider new file creations.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git add --all / git add -u		|	this will add all kind of changes to staging.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	
+
+
+
+
+
