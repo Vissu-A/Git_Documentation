@@ -21,7 +21,7 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 | git config --global --unset --all		|	to remove/unset the values of all global variable configurations.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-|	git init					|	Making a normal folder/directory as git repository, we need to execute this command in the folder/directory path which we want to make it as git repo.
+|	git init					|	Making a normal folder/directory as git repository, we need to execute this command in the folder/directory path which we want to make it as git repo. This will create a folder with name ".git" inside the directory.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 |	git clone <repo url>			|	Cloning the existing remote repositoty from github to local memory.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -35,7 +35,14 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 |	git add --all / git add -u		|	this will add all kind of changes to staging.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-|	git 
+|	git ls-files -s / --stage		|	to see the files that are added to staging index.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git restore --staged <file_name>	|	to remove the file from staging index area. the file will again become untraced file.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git commit -m "commit msg"		|	to commit the changes
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git push origin <branch name>		|	to push the commited changes to remote repository branch from local repository branch.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
