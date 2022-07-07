@@ -7,6 +7,8 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 |	git --man-path				|	this will gives the git command's manual/documentaion files path which are stored/installed when we install git on the computer.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git config --list(-l)			|	to see all your git configuration details
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 | git config --global user.name <"name">	|	to configure/set your github account username in git bash global variables.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 | git config --global user.email <"email">|	to configure/set your github account email in git bash global variables.
@@ -33,7 +35,11 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 |	git add -u					|	this will add the files which are modified or deleted to statging. this will not add the newly created files to staging. this will not consider new file creations.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-|	git add --all / git add -u		|	this will add all kind of changes to staging.
+|	git add --all / git add -A		|	this will add all kind of changes to staging.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git add *.txt				|	to add all the files are of type TEXT files.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git add sale*				|	to add all the files which are starting with sale.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 |	git ls-files -s / --stage		|	to see the files that are added to staging index.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
