@@ -97,3 +97,11 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 | git log --pretty=format:"wanted format" |	to display the git log output is customized format, ex: git log --pretty=format:"Commit Hash: %H, Author: %aN, Date: %aD"
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git diff					|	to display the new change differences made in the files which are unstaged. this will shows only unstaged change differences by default.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git diff --staged				|	to display the new change differences made in the files which are staged.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git diff <file_name>			|	to disaply the change differences for a particular file which is unstaged.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git diff --staged <file_name>		|	to disaply the change differences for a particular file which is staged.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
