@@ -105,3 +105,6 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 |	git diff --staged <file_name>		|	to disaply the change differences for a particular file which is staged.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git checkout <file_name>		|	to remove the files from working directory which are untracked, this only remove files which are modified but not the files whicih are newly created.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	
