@@ -45,6 +45,8 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 |	git restore --staged <file_name>	|	to remove the file from staging index area. the file will again become untraced file.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git checkout <file_name>		|	to remove the files from working directory which are untracked, this only remove files which are modified but not the files whicih are newly created.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 |	git commit -m "commit msg"		|	to commit the changes, commit message will be saved in the path ./.git/COMMIT_EDITMSG file
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 |	git push origin <branch name>		|	to push the commited changes to remote repository branch from local repository branch.
@@ -107,8 +109,6 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 |	git diff --staged <file_name>		|	to disaply the change differences for a particular file which is staged.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-|	git checkout <file_name>		|	to remove the files from working directory which are untracked, this only remove files which are modified but not the files whicih are newly created.
------------------------------------------------------------------------------------------------------------------------------------------------------------
 |	git reset <commit-id>			|	to rollback the commit changes.every time we make a commit Head Pointer will be moved to latest commit from previous commit.
 |							|	if you have commits like c1,c2,c3,c4 and we want to rollback C3 commit changes. we have to move the Head pointer to the commit which is before C3.
 |							|	"git reset c2". here the problem is, this will not only remove the C3 changes but also removes all changes 
@@ -122,4 +122,6 @@
 |	git cherry-pick <commit_id>		|	this is used to pick a commit from one branch and move to other branch.
 |							|	Let say a commit is accidently made to the wrong branch. You can switch to the correct branch and 
 |							|	cherry-pick that commit from that wrong branch and commit to correct branch.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+| 	git rebase <branch_name>		|	this will merge the given branch changes into our current working branch.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
