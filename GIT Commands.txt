@@ -49,6 +49,8 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 |	git push origin <branch name>		|	to push the commited changes to remote repository branch from local repository branch.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git push -f origin <branch name>	|	to force push the changes.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 | 	git branch/ git branch -a		|	gives the list of branches and highlit the branch which your currently working with star(*) symbol before branch name.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 |	git branch <branch_name>		|	this will create a branch with the given name.
