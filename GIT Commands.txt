@@ -69,7 +69,9 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 |	git merge <branch_name>			|	this will merge the given branch changes into our current working branch.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-|	git log/git log --all			|	this will gives the list/history of all commits that we made till now.
+|	git log / git log --all			|	this will gives the list/history of all commits that we made till now in local repository.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git log origin/main			|	this will gives the list/history of all commits that we made till now in remote repository.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 |	git log --oneline				|	this will gives the all commit history in one line format/short format.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -124,4 +126,9 @@
 |							|	cherry-pick that commit from that wrong branch and commit to correct branch.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 | 	git rebase <branch_name>		|	this will merge the given branch changes into our current working branch.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git fetch					|	this will take the latest changes from remote repo and download to temporary location in local. This will not
+|							|	merge the lastest remote repo changes into our local repo.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git pull					|	this will take the latest changes from remote repository and merge them into our local repository.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
