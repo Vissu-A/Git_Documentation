@@ -119,3 +119,7 @@
 |							|	create a new commit C5 by removeing the changes for C3 commit only, this will not remove any other commit changes
 |							|	like reset.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git cherry-pick <commit_id>		|	this is used to pick a commit from one branch and move to other branch.
+|							|	Let say a commit is accidently made to the wrong branch. You can switch to the correct branch and 
+|							|	cherry-pick that commit from that wrong branch and commit to correct branch.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
