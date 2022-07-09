@@ -109,4 +109,13 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 |	git checkout <file_name>		|	to remove the files from working directory which are untracked, this only remove files which are modified but not the files whicih are newly created.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-|	git reset
+|	git reset <commit-id>			|	to rollback the commit changes.every time we make a commit Head Pointer will be moved to latest commit from previous commit.
+|							|	if you have commits like c1,c2,c3,c4 and we want to rollback C3 commit changes. we have to move the Head pointer to the commit which is before C3.
+|							|	"git reset c2". here the problem is, this will not only remove the C3 changes but also removes all changes 
+|							|	made after C3 like C4 etc as well.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git revert <commit-id>			|	to rollback the commit changes. when we apply revert command this will create a new commit by removing the changes for specified commit and head pointer will be moved to new commit id.
+|							|	if you have commits like c1,c2,c3,c4 and we want to rollback C3 commit changes. if we use revert this will
+|							|	create a new commit C5 by removeing the changes for C3 commit only, this will not remove any other commit changes
+|							|	like reset.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
