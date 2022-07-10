@@ -134,7 +134,7 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 |	git merge origin/main			|	this will merge the latest changes in your remote repository main branch into your local repository main branch.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
-|	git stash / git stash -u		|	this will saves your untacked and staged changes in a temporary location and make the working tree clean by removeing those changes from working directory.
+|git stash / git stash -u(untracked also)	|	this will saves your untacked and staged changes in a temporary location and make the working tree clean by removeing those changes from working directory.
 |							|	Let say we did some changes in feature branch, before commiting these changes we are asked to work on some other branch. Now, we have to checkout to the other branch
 |							|	But, we don't want to lose our changes done in this feature branch or we don't want to strat from begining again.
 |							|	First, we will save all our changes using stash then we wil checkout to other branch and complete the work there.
