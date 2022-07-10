@@ -145,3 +145,5 @@
 |	git stash apply				|	this will not completely removes the changes from temporary location, instead it will take a copy of those changes and apply to our working location/tree.
 |							|	this will be useful when we want to apply same set of stashed changes to multiple branches
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
+|	git stash list				|	this will show the list of stashed changes.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
